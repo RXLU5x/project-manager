@@ -1,44 +1,44 @@
 ### IntelliJ IDEA ###
 
 # User-specific stuff
-.idea/**/dictionaries
-.idea/**/shelf
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
+server/.idea/**/dictionaries
+server/.idea/**/shelf
+server/.idea/**/workspace.xml
+server/.idea/**/tasks.xml
+server/.idea/**/usage.statistics.xml
 
 # Generated files
-.idea/**/contentModel.xml
+server/.idea/**/contentModel.xml
 
 # Sensitive files
 *.iml
 *.ipr
 
-.idea/artifacts
-.idea/modules
+server/.idea/artifacts
+server/.idea/modules
 
-.idea/compiler.xml
-.idea/modules.xml
-.idea/misc.xml
+server/.idea/compiler.xml
+server/.idea/modules.xml
+server/.idea/misc.xml
 
-.idea/**/libraries
+server/.idea/**/libraries
 
-.idea/**/dataSources/
+server/.idea/**/dataSources/
 
-.idea/**/dataSources.ids
+server/.idea/**/dataSources.ids
 
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+server/.idea/**/dataSources.local.xml
+server/.idea/**/sqlDataSources.xml
+server/.idea/**/dynamic.xml
+server/.idea/**/uiDesigner.xml
+server/.idea/**/dbnavigator.xml
 
 # Building
-out/
+server/out/
 
 ### Maven ###
 
-target/
+server/target/
 
 pom.xml.tag
 pom.xml.releaseBackup
@@ -47,8 +47,8 @@ pom.xml.next
 
 dependency-reduced-pom.xml
 
-.mvn/wrapper/maven-wrapper.jar
-.mvn/timing.properties
+server/.mvn/wrapper/maven-wrapper.jar
+server/.mvn/timing.properties
 
 release.properties
 buildNumber.properties
@@ -70,7 +70,7 @@ pids
 *.pid.lock
 
 # Dependencies folder
-node_modules/
+client/node_modules/
 
 # Npm cache directory
 .npm
@@ -83,11 +83,11 @@ node_modules/
 .env.test
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+client/.vscode/*
+!client/.vscode/settings.json
+!client/.vscode/tasks.json
+!client/.vscode/launch.json
+!client/.vscode/extensions.json
 *.code-workspace
 
 # Ignore all local history of files
